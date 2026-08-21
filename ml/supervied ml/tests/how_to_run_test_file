@@ -1,0 +1,5 @@
+# Run pytest with verbose output
+pytest -v
+
+# Run pytest with code coverage report
+pytest --cov=pytoolbox --cov-report=term-missing

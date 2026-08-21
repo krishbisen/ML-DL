@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Page</title>
+    <style>
+        .reload-button {
+            padding: 15px 30px;
+            font-size: 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: block;
+            margin: 20px auto;
+        }
+        .reload-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to HTML Basics</h1>
+    <button class="reload-button" onclick="location.reload()">Reload Page</button>
+    
+    <h2>Headings</h2>
+    <h3>This is an H3 heading</h3>
+    <h4>This is an H4 heading</h4>
+    
+    <h2>Paragraphs</h2>
+    <p>This is a paragraph of text. HTML (HyperText Markup Language) is the standard markup language for creating web pages.</p>
+    <p>You can have multiple paragraphs on a page.</p>
+    
+    <h2>Lists</h2>
+    <h3>Unordered List</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+    
+    <h3>Ordered List</h3>
+    <ol>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ol>
+    
+    <h2>Links</h2>
+    <p>Visit <a href="https://www.w3schools.com/html/" target="_blank">W3Schools HTML Tutorial</a> to learn more.</p>
+    
+    <h2>Images</h2>
+    <p>Here's a placeholder for an image:</p>
+    <img src="https://via.placeholder.com/300x200" alt="Placeholder Image" width="300" height="200">
+    
+    <h2>Forms</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <button type="button" onclick="alert('Button clicked!')">Click Me</button><br><br>
+        <button type="reset">Reset</button><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+
+    <table border="6">
+        <tr>
+            <th>name </th>
+            <th>marks </th>
+        </tr>
+        <tr>
+            <td>krish</td>
+            <td>78</td>
+        </tr>
+        <tr>
+            <td>sham</td>
+            <td>78</td>
+        </tr>
+        <tr>
+            <td>eve</td>
+            <td>85</td>
+        </tr>
+
+        
+    </table>
+</body>
+</html>
